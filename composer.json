@@ -1,0 +1,43 @@
+{
+    "name": "zendraxl/laravel-string",
+    "description": "Laravel String Object inspired by Laravel Collections",
+    "keywords": [
+        "laravel",
+        "string"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drazen Vasiljevic",
+            "email": "zendraxl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "^5.7.15 | 5.8.*",
+        "ramsey/uuid": "^3.8",
+        "moontoast/math": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zendraxl\\LaravelString\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zendraxl\\LaravelString\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zendraxl\\LaravelString\\StringServiceProvider"
+            ]
+        }
+    }
+}
