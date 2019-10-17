@@ -32,6 +32,11 @@ class Str
         return $this;
     }
 
+    public function __toString(): string
+    {
+        return $this->item;
+    }
+
     public function dd(): void
     {
         dd($this->item);

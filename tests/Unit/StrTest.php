@@ -8,6 +8,13 @@ use Zendraxl\LaravelString\Str;
 class StrTest extends TestCase
 {
     /** @test */
+    public function it_can_be_converted_to_string(): void
+    {
+        $string = new Str('foobar');
+        $this->assertSame('foobar', (string) $string);
+    }
+
+    /** @test */
     public function str_after(): void
     {
         $this->assertSame(' my name', Str::after('This is my name', 'This is'));
