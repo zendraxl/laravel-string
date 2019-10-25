@@ -26,7 +26,10 @@
     "autoload": {
         "psr-4": {
             "Zendraxl\\LaravelString\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

@@ -25,9 +25,3 @@ Having `dd()` on that object is a must :D
 ```php
 $title = str('fooBar')->snake()->replaceArray('_', [' '])->dd()->title()->get();
 ```
-
-Str2 for those who want to differentiate between this and Laravel Str object
-
-```php
-$title = (new Str2('fooBar'))->snake()->replaceArray('_', [' '])->title()->get();
-```
