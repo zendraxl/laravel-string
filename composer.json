@@ -16,7 +16,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.1.0",
-        "illuminate/support": "^5.7.15",
+        "illuminate/support": "^5.7.15 - 6",
         "ramsey/uuid": "^3.8",
         "moontoast/math": "^1.1"
     },
